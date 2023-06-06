@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "name": "Modern",
+  "displayName": "Modern",
+  "author": "Sergey Ovechkin",
+  "private": true,
+  "dependencies": {},
+  "keywords": [
+    "pebble-watchface"
+  ],
+  "pebble": {
+    "uuid": "6cf44414-3cbf-4d65-b6cc-6b91f851c876",
+    "displayName": "Modern",
+    "sdkVersion": "3",
+    "resources": {
+      "media": [{
+        "type":"png",
+        "name":"IMAGE_BACKGROUND",
+        "file":"images/modern_background.png"
+      }, {
+        "type": "font",
+        "name": "FONT_DIGITALDREAM_NARROW_14",
+        "characterRegex": "[A-Z]",
+        "file": "fonts/DIGITALDREAMNARROW.ttf"
+      }, {
+        "type": "font",
+        "name": "FONT_ORBITRON_MEDIUM_12",
+        "characterRegex": "[0-9]",
+        "file": "fonts/orbitron-medium.otf"
+      }]
+    },
+    "projectType": "native",
+    "messageKeys": {},
+    "enableMultiJS": false,
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": true
+    },
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "capabilities": []
+  }
+}
